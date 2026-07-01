@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Portfolio Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+
+    <h1>Smart Portfolio Store</h1>
+
+    <p>ApexPlanet Internship - Task 4</p>
+
+</header>
+
+<nav>
+
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#todo">Notes</a>
+    <a href="#products">Products</a>
+    <a href="#contact">Contact</a>
+
+</nav>
+
+<!-- HOME -->
+
+<section id="home">
+
+    <h2>Welcome</h2>
+
+    <p>
+        Welcome to my personal portfolio website.
+        This website showcases my projects,
+        notes application and product listing.
+    </p>
+
+</section>
+
+<!-- ABOUT -->
+
+<section id="about">
+
+    <h2>About Me</h2>
+
+    <p>
+        Hi, I'm Lakshmipatula Poorna Venkata Sai.
+        I am an aspiring Full Stack Developer passionate
+        about building modern web applications.
+    </p>
+
+</section>
+
+<!-- PROJECTS -->
+
+<section id="projects">
+
+    <h2>Projects</h2>
+
+    <div class="project">
+
+        <h3>Resume Builder</h3>
+
+        <p>ATS Resume Builder using Java Full Stack.</p>
+
+    </div>
+
+    <div class="project">
+
+        <h3>Smart Task Manager</h3>
+
+        <p>Task-2 Internship Project.</p>
+
+    </div>
+
+    <div class="project">
+
+        <h3>Weather Quiz App</h3>
+
+        <p>Task-3 Internship Project.</p>
+
+    </div>
+
+</section>
+
+<!-- NOTES -->
+
+<section id="todo">
+
+<h2>Notes</h2>
+
+<input
+type="text"
+id="noteInput"
+placeholder="Enter a Note">
+
+<button onclick="addNote()">
+Add Note
+</button>
+
+<ul id="noteList">
+
+</ul>
+
+</section>
+
+<!-- PRODUCTS -->
+
+<section id="products">
+
+<h2>Products</h2>
+
+<select id="filter">
+
+<option value="all">All</option>
+<option value="Laptop">Laptop</option>
+<option value="Mobile">Mobile</option>
+
+</select>
+
+<select id="sort">
+
+<option value="default">Sort</option>
+<option value="low">Price Low to High</option>
+<option value="high">Price High to Low</option>
+
+</select>
+
+<button onclick="displayProducts()">
+Apply
+</button>
+
+<div id="productContainer">
+
+</div>
+
+</section>
+
+<!-- CONTACT -->
+
+<section id="contact">
+
+<h2>Contact</h2>
+
+<p>Email: sailakshmipathula@gmail.com</p>
+
+<p>LinkedIn:
+https://www.linkedin.com/in/poorna-venkata-sai-lakshmipatula-a07656383
+</p>
+
+<p>GitHub:
+https://github.com/Sanju666666
+</p>
+</section>
+
+<footer>
+
+<p>
+
+© 2026 Smart Portfolio Store
+
+</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
